@@ -46,8 +46,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\3rd Person Character\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\3rd Person Character\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\3rd Person Character\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\3rd Person Character\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
+     <None Include="Assets\3rd Person Character\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -69,10 +84,6 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{37680953-DAD6-FE12-0036-631B97793698}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
